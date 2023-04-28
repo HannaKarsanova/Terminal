@@ -1,0 +1,80 @@
+Look, where I am - pwd
+
+Create a foulder - mkdir study
+
+Go to this foulder - cd study
+
+Create new 3 folders - mkdir Hanna Bananka Karsanova
+
+Go to any folder - cd Hanna
+
+Create 5 files (3 txt 2 json) - touch test1.txt test2.txt test3.txt test4.json test5.json
+
+Create new 3 folders - mkdir dir1 dir2 dir3
+
+List the folder contents - ls -la
+
+open any txt file - cat > test1.txt
+
+write something in this file - write some words
+
+save and exit -  press ctrl c
+
+Go out from folder to up level - cd ..
+
+Move any two files in another folder - mv Hanna/test1.txt Bananka
+
+                                       mv Hanna/test2.txt Bananka
+
+Copy any 2 files in another folder - cp Hanna/test4.json dir1
+
+                                     cp Hanna/test5.json dir2
+
+find a file by name - find /Users -name "test1.txt" 
+
+to view the content in real time - tail -f Bananka/test1.txt
+
+output the first few lines of a text file - head -n2 Bananka/test1.txt
+
+output the last few lines of a text file - tail -n2 Bananka/test1.txt
+
+output the time and date - date
+
+
+
+
+the task with *
+
+1) Send an http request to the server - curl http://162.55.220.72:5005/terminal-hw-request
+
+2) open the terminal 
+
+    cd study
+
+   nano study.sh
+
+mkdir Hanna1 Bananka1 Karsanova1
+
+cd Hanna1
+
+touch test1.txt test2.txt test3.txt test4.json test5.json
+
+mkdir dir5 dir6 dir7
+
+mv test1.txt dir6
+
+mv test4.json dir7
+
+go out from nano
+
+
+
+
+Chmod +x study1.sh
+
+./study1.sh
+
+
+
+
+Done
